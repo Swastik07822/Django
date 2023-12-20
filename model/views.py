@@ -25,7 +25,7 @@ def index(request):
         #return the answer to result.html
         return render(request, "result.html",{'result':result})
         
-    return render(request,'form.html') 
+    return render(request,'index.html') 
 
 
     
